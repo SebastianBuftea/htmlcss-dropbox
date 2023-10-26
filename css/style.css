@@ -46,7 +46,7 @@ header{
     
 }
 
-.container{
+.container-one{
     width: 1200px;
     height: 500px;
     background-color: burlywood;
@@ -57,7 +57,7 @@ header{
     padding: 10px;
 }
 
-.row{
+.row-one{
     width: 100% ;
     height: 100% ;
     display: flex;
@@ -66,9 +66,7 @@ header{
     
 }
 
-.col{
-    width: 50px;
-    height: 50px;
+.col-one{
     background-color: rgb(174, 174, 174);
     border: 1px solid black;
 }
@@ -84,3 +82,113 @@ header{
     width: 70%;
     height: 70%;
 }
+
+/* container principale */
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    height: 3000px;
+    background-color: khaki;
+}
+
+.height{
+    background-color: blue;
+    height: 800px;
+    column-gap: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col{
+    background-color: rgb(174, 174, 174);
+    border: 1px solid black;
+}
+
+
+
+.height2{
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+    background-color: chartreuse;
+}
+
+.height3{
+    height: 400px;
+    background-color: magenta;
+    justify-content: center;
+    align-items: center;
+}
+
+.height4{
+    height: 1200px;
+    background-color: tomato;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.height5{
+    height: 200px;
+    background-color: tan;
+    align-content: center;
+}
+
+.height6{
+    height: calc(100vw /2);
+    background-color: green;
+}
+.lunga2{
+    background-color: coral;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.piccola2{
+    width: 33.33%;
+    height:45% ;
+    background: rgb(109, 83, 79);
+    
+   
+    
+}
+.piccola3{
+    width: calc(100% / 2);
+    height: calc(100% / 2) ;
+    background-color: chocolate;
+}
+.col2{
+    border: 1px solid black;
+    background-color: rgb(79, 63, 150);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.piccola4{
+    width: calc(100% / 3);
+    height: calc(100% / 3 * 2) ;
+}
+.grandezza{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 106, 42);
+    display: flex;
+    align-content: center;
+} 
+.colonna{
+    width: 100%;
+    height: calc(100%/5);
+    
+    
+}
+
+.grandezza .colonna:first-of-type{
+   height: calc(100% /5 * 2);
+}  
+
+

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
                 /* utility */
                 .width100{
                     width: 100%;
@@ -18,185 +22,289 @@
                 .align-center{
                     align-content: center;
                 }
+                .padding10{
+                    padding: 10px;
+                }
+                .line-height40{
+                    line-height: 40px;
+                }
+
+                .textalign{
+                    text-align: center;
+                }
+
+                .center{
+                    align-items: center;
+                }
+                
+                .align-self{
+                   align-self: center;    
+                }
+                .just-end{
+                    justify-content: end;
+                }
 
 
 
-/* header */
-header{
-    background-color: rgb(255, 196, 0);
-    height: 70px; 
+  /* classi di struttura */
+
+        /* header */
+        header{
+            background-color: rgb(255, 255, 255);
+            height: 70px; 
+        }
+
+        .row-header{
+            background-color: white;
+            height: 70px; 
+            justify-content: space-between;
+            position: fixed;
+            z-index: 1;
+            padding: 10px;
+        }
+
+        .col-header{
+            width: 600px;
+          
+        }
+
+        /* stile header */
+        .container-logo{
+            height: 25px;
+            width: 127px; 
+            display: inline-block;
+            align-self: center;
+        }
+        
+        .ul-header{
+            list-style-type: none;
     
-   
-}
+        }
 
-.row-header{
-    background-color: brown;
-    height: 70px;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 1;
-    padding: 10px;
-}
-
-.col-header{
-    background-color: chartreuse;
-    width: 450px;
-    height: 100%;
-}
+        .ul-header li{
+            padding-right: 15px;
+          
+        }
+        #button-header{
+          margin: 0;
+          transform: translate( 5px,-35%);
+        
+        }
 
 
 
 
 
-/* main */
+        /* main */
 
-.background-container{
-    background-color: rgb(165, 233, 250) ;
-    width: 100%;
-    height: 600px;
-    position: relative;
-   
-    
-    
-}
+        .background-container{
+            background-color: rgb(121, 182, 198) ;
+            height: 600px; 
+            position: relative;    
+        }
+        .container2{
+            height: 600px;
+        }
 
-.container-one{
-    width: 1200px;
-    height: 500px;
-    background-color: burlywood;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-}
+        .container-one{
+            width: 1200px;
+            height: 500px; /* altezza fissa per far si chel immagine esca fuori */
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+        }
 
-.row-one{
-    height: 100% ;
-    background-color: rgb(221, 254, 6);
-    
-}
+        .contenitore-p{
+            width: 30%;
+            position: relative;
+        }
+        .media{
+            width: 70%;
+            
+        }
 
-.col-one{
-    background-color: rgb(174, 174, 174);
-    border: 1px solid black;
-}
-.lunga{
-    height: 30%;
-}
-.piccola{
-    width: 30%;
-    height: 70%;
-}
-.media{
-    width: 70%;
-    height: 70%;
-}
+        /* container principale */
 
-/* container principale */
+        .container{
+            width: 1000px;
+            margin: 0 auto;
+          /*   height: 3000px; */
+            background-color: khaki;
+        }
 
-.container{
-    width: 1000px;
-    margin: 0 auto;
-    height: 3000px;
-    background-color: khaki;
-}
+        .height{
+            background-color: blue;
+            height: 800px;
+            column-gap: 50px;
+            margin-top:150px ;
+           
+        }
+        .row{
+        
+        }
 
-.height{
-    background-color: blue;
-    height: 800px;
-    column-gap: 50px;
-}
-.row{
- 
-}
+        .height .piccola{
+            height: calc(70% - 50px);
+        }
+        .minuscola{
+            width: 30% ;
+            height: 50px;
+            align-self:flex-end ;
+            text-align: center;
 
-.col{
-    background-color: rgb(174, 174, 174);
-    border: 1px solid black;
-}
+        }
+
+        .col{
+            background-color: rgb(174, 174, 174);
+            border: 1px solid black;
+        }
 
 
 
-.height2{
-    justify-content: center;
-    height: 200px;
-    background-color: chartreuse;
-}
+        .height2{
+            justify-content: center;
+            height: 200px;
+            background-color: chartreuse;
+        }
 
-.height3{
-    height: 400px;
-    background-color: magenta;
-    justify-content: center;
-    align-items: center;
-}
+        .height3{
+            height: 400px;
+            background-color: magenta;
+            justify-content: center;
+            align-items: center;
+        }
 
-.height4{
-    height: 1200px;
-    background-color: tomato;
-    justify-content: center;
-    
-}
+        .height4{
+            height: 1200px;
+            background-color: tomato;
+            justify-content: center;
+            
+        }
 
 
-.height5{
-    height: calc(100vw / 2);
-    background-color: green;
-}
-.lunga2{
-    background-color: coral;
-    height: 50px;
-    
-}
+        .height5{
+            height: calc(100vw / 2);
+            background-color: green;
+        }
+        .lunga2{
+            background-color: coral;
+            
+        }
 
-.piccola2{
-    width: 33.33%;
-    height:45% ;
-    background: rgb(109, 83, 79);
+        .piccola2{
+            width: 33.33%;
+            height:45% ;
+            background: rgb(109, 83, 79);
+            
+        }
+        .piccola3{
+            width: calc(100% / 2);
+            height: calc(100% / 2) ;
+            background-color: chocolate;
+        }
+        .col2{
+            border: 1px solid black;
+            background-color: rgb(79, 63, 150);
+
+        }
+        .piccola4{
+            width: calc(100% / 3);
+            height: calc(100% / 3 * 2) ;
+        }
+        .grandezza{
+            height: 500px;
+            background-color: rgb(255, 106, 42);
+            margin-top: 200px;
+            
+        } 
+        .colonna{
+            height: calc(100%/5);
+            
+            
+        }
+
+        .grandezza .colonna:first-of-type{
+        height: calc(100% /5 * 2);
+        }  
+
+        /* footer */
+        footer{
+            height: 50vh;
+            background-color: aquamarine;
+            justify-content: center;
+        }
+        .footer-row{
+            width: 90%;
+            height: 100%;
+            background-color: chartreuse;
+        }
+
+        .col-footer{
+            height: 100%;
+            width: calc(100% / 5);
+        }
+
+
+     /* classi di stile */   
+     h1{
+        font-weight: bolder;
+        font-size: 70px;
+     }
+
+     h2{
+        font-weight: bold;
+        font-size: 40px;
+     }
+
+     button{
+        background-color: blue;
+        color: white;
+        border-color: blue;
+     }
+
+     button, .whitebutton{
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+     }
+
+     .whitebutton{
+        background-color: white;
+        color: grey;
+        border-color: grey;
+        ;
+
+     }
      
-}
-.piccola3{
-    width: calc(100% / 2);
-    height: calc(100% / 2) ;
-    background-color: chocolate;
-}
-.col2{
-    border: 1px solid black;
-    background-color: rgb(79, 63, 150);
+    #freccia{
+        position: absolute;
+        bottom: 105px;
+        font-size:xx-large;
+    }
 
-}
-.piccola4{
-    width: calc(100% / 3);
-    height: calc(100% / 3 * 2) ;
-}
-.grandezza{
-    height: 500px;
-    background-color: rgb(255, 106, 42);
-    margin-top: 200px;
-} 
-.colonna{
-    height: calc(100%/5);
-    
-    
-}
+    .checkbox{
+       margin-top: 30px;
+       margin-right: 10px;
+    }
+    .lunga span{
+        padding-right:20px ;
+    }
 
-.grandezza .colonna:first-of-type{
-   height: calc(100% /5 * 2);
-}  
+    ul{
+        margin: 20px;
+    }
 
-/* footer */
-footer{
-    height: 50vh;
-    background-color: aquamarine;
-    justify-content: center;
-}
-.footer-row{
-    width: 90%;
-    height: 100%;
-    background-color: chartreuse;
-}
+    #partner{
+        width: 100%;
+    }
 
-.col-footer{
-    height: 100%;
-    width: calc(100% / 5);
-}
+    .imgsquare{
+        height: 250px;
+        background-color: aquamarine;
+    }
+
+    .ul-footer li{
+        list-style-type: none;
+    }

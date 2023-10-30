@@ -25,6 +25,10 @@ body{
                 .padding10{
                     padding: 10px;
                 }
+
+                .padding30{
+                    padding: 30px;
+                }
                 .line-height40{
                     line-height: 40px;
                 }
@@ -46,7 +50,13 @@ body{
                 .width70{
                     width: 70%;   
                 }
-
+                .relative{
+                    position: relative;
+                }
+                .margin70{
+                    margin-top: 70px;
+                }
+              
 
 
   /* classi di struttura */
@@ -158,21 +168,19 @@ body{
 
         .height2{
             justify-content: center;
-            height: 200px;
-            background-color: chartreuse;
+            
         }
 
         .height3{
             height: 400px;
-            background-color: magenta;
             justify-content: center;
             align-items: center;
         }
 
         .height4{
             height: 1200px;
-            background-color: tomato;
             justify-content: center;
+            margin-top: 200px ;
             
         }
 
@@ -208,7 +216,6 @@ body{
         }
         .grandezza{
             height: 500px;
-            background-color: rgb(255, 106, 42);
             margin-top: 200px;
             
         } 
@@ -225,13 +232,13 @@ body{
         /* footer */
         footer{
             height: 50vh;
-            background-color: aquamarine;
+            background-color: rgb(0, 0, 0);
             justify-content: center;
         }
         .footer-row{
             width: 90%;
             height: 100%;
-            background-color: chartreuse;
+            
         }
 
         .col-footer{
@@ -249,6 +256,36 @@ body{
      h2{
         font-weight: bold;
         font-size: 40px;
+     }
+
+     h3, .costo{
+        margin-bottom: 20px;
+
+     }
+     .costo{
+        font-weight: bold;
+     }
+
+     .mensilita{
+        color: lightgrey;
+        margin-bottom: 40px;
+     }
+
+     .info-enterprise{
+        font-weight: bold;
+        margin-bottom: 40px;
+        font-size: small;
+     }
+
+     .paragraf{
+        font-size: small;
+     }
+     #position-button{
+        position: absolute;
+        right: 30px ;
+        top: 10px;
+        padding-left: 30px;
+        padding-right: 30px ;
      }
 
      button{
@@ -278,9 +315,10 @@ body{
         font-size:xx-large;
     }
 
-    .checkbox{
+    .radio{
        margin-top: 50px;
        margin-right: 10px;
+       clip: rect(2px, 2px, 2px, 200px);
     }
     
     .lunga span{
@@ -297,9 +335,36 @@ body{
 
     .imgsquare{
         height: 250px;
-        background-color: aquamarine;
     }
 
     .ul-footer li{
         list-style-type: none;
+        color: white;
+        font-size: small;
+        line-height: 30px;
+    }
+    #lenguage{
+        color: rgb(197, 197, 197);
+        font-size: small;
+        margin-left: 20px;
+    
+    }
+    #lenguage-eart{
+        margin-top: 50px;
+    }
+
+    .ul-footer li:first-of-type{
+        font-size: medium;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+    }
+    #hr-footer{
+        width: 40%;
+    }
+    .border{
+        border-bottom: 1px solid grey;
+    }
+    #bordertop{
+        border-top: 1px solid grey;
     }

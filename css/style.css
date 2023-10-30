@@ -12,6 +12,7 @@ body{
                 .width100{
                     width: 100%;
                 }
+          
 
                 .flex{
                     display: flex;
@@ -31,6 +32,10 @@ body{
                 }
                 .line-height40{
                     line-height: 40px;
+                }
+                .line-height25{
+                    line-height: 25px;
+                    font-size: medium;
                 }
 
                 .textalign{
@@ -167,8 +172,7 @@ body{
 
 
         .height2{
-            justify-content: center;
-            
+            justify-content: center;  
         }
 
         .height3{
@@ -187,7 +191,7 @@ body{
 
         .height5{
             height: calc(100vw / 2);
-            background-color: green;
+            
         }
         .lunga2{
             background-color: coral;
@@ -197,7 +201,7 @@ body{
         .piccola2{
             width: 33.33%;
             height:45% ;
-            background: rgb(109, 83, 79);
+    
             
         }
         .piccola3{
@@ -207,7 +211,6 @@ body{
         }
         .col2{
             border: 1px solid black;
-            background-color: rgb(79, 63, 150);
 
         }
         .piccola4{
@@ -318,7 +321,6 @@ body{
     .radio{
        margin-top: 50px;
        margin-right: 10px;
-       clip: rect(2px, 2px, 2px, 200px);
     }
     
     .lunga span{
@@ -359,12 +361,79 @@ body{
         margin-bottom: 20px;
 
     }
+
     #hr-footer{
         width: 40%;
     }
+
     .border{
         border-bottom: 1px solid grey;
     }
+
     #bordertop{
         border-top: 1px solid grey;
     }
+
+
+    /* style liste tariffe */
+    .ul-puntisalienti{
+        list-style-type:'\2713';
+        color: blue;
+        font-weight: bold; 
+    }
+
+    .ul-puntisalienti li{
+        margin-top: 5px;
+         padding-left: 10px;
+    }
+    .ul-puntisalienti li span{
+        color: black;
+        font-weight: 100;
+        
+    }
+    #scopri-dipiu{
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+
+
+    /* colori scacchiera */
+    .aqua{
+        background-color: aquamarine;
+    }
+    .red{
+        background-color: red;
+    }
+    .blu{
+        background-color: blue;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .darkred{
+        background-color: darkred;
+    }
+    .cornflower{
+        background-color: cornflowerblue;
+      
+    }
+    .lightblue{
+        background-color:lightblue ;
+    }
+    .white{
+        background-color: white;
+    }
+
+
+
+    #centratura{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    #porta-drop{
+        width: 50%;
+        margin-right: 100px;
+    }
+
+   

@@ -61,6 +61,22 @@ body{
                 .margin70{
                     margin-top: 70px;
                 }
+                .space{
+                    justify-content: space-between;
+                 }
+                 .float{
+                    float: left;
+                }
+                .margin-top{
+                    margin-top: 20px;
+                }
+                .bold{
+                    font-weight: bold;
+                }
+                .jus-center{
+                    justify-content: center;
+                }
+           
               
 
 
@@ -222,11 +238,7 @@ body{
             margin-top: 200px;
             
         } 
-        .colonna{
-            height: calc(100%/5);
-            
-            
-        }
+ 
 
         .grandezza .colonna:first-of-type{
         height: calc(100% /5 * 2);
@@ -283,10 +295,7 @@ body{
      .paragraf{
         font-size: small;
      }
-     #position-button{
-        position: absolute;
-        right: 30px ;
-        top: 10px;
+     #padding-button{
         padding-left: 30px;
         padding-right: 30px ;
      }
@@ -368,11 +377,11 @@ body{
 
     .border{
         border-bottom: 1px solid grey;
-    }
+    } 
 
-    #bordertop{
-        border-top: 1px solid grey;
-    }
+   #bordertop{
+    border-top: 1px solid grey;
+   }
 
 
     /* style liste tariffe */
@@ -409,7 +418,7 @@ body{
         background-color: blue;
     }
     .yellow{
-        background-color: yellow;
+        background-color: rgb(200, 200, 80);
     }
     .darkred{
         background-color: darkred;
@@ -436,4 +445,40 @@ body{
         margin-right: 100px;
     }
 
-   
+ 
+
+.info-tariffe>ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.inline{
+    display: inline-block;
+    font-size: medium;
+}
+
+.hr-tariffa{
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    width: 50px;
+}
+
+.vuoto{
+    height: 20px;
+    width: 100%;
+}
+
+.margin-top .float{
+   margin-right:3px ;
+}
+
+
+.widthmeta{
+    width: 80%;
+    height: 20%;
+    align-self: center;
+}
+
+.fill{
+    filter: invert();
+}

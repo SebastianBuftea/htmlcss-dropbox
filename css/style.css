@@ -170,7 +170,6 @@ body{
         }
         .minuscola{
             width: 30% ;
-            height: 50px;
             align-self:flex-end ;
             text-align: center;
 
@@ -192,13 +191,11 @@ body{
         }
 
         .height3{
-            height: 400px;
             justify-content: center;
             align-items: center;
         }
 
         .height4{
-            height: 1200px;
             justify-content: center;
             margin-top: 200px ;
             
@@ -216,26 +213,25 @@ body{
 
         .piccola2{
             width: 33.33%;
-            height:45% ;
     
             
         }
         .piccola3{
             width: calc(100% / 2);
-            height: calc(100% / 2) ;
             background-color: chocolate;
         }
+
         .col2{
             border: 1px solid black;
 
         }
         .piccola4{
             width: calc(100% / 3);
-            height: calc(100% / 3 * 2) ;
+        
         }
         .grandezza{
-            height: 500px;
             margin-top: 200px;
+            line-height: 80px;
             
         } 
  
@@ -252,12 +248,9 @@ body{
         }
         .footer-row{
             width: 90%;
-            height: 100%;
-            
         }
 
         .col-footer{
-            height: 100%;
             width: calc(100% / 5);
         }
 
@@ -344,9 +337,6 @@ body{
         width: 100%;
     }
 
-    .imgsquare{
-        height: 250px;
-    }
 
     .ul-footer li{
         list-style-type: none;
